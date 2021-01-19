@@ -1,0 +1,269 @@
+body {
+  background-image: url(../img/bg-body.jpg);
+}
+
+.container {
+  margin: 0 auto;
+  width: 860px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.mfp-title {
+  text-align: center;
+  padding: 6px 0;
+}
+
+p,
+ul,
+li,
+ol {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+h1 h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif !important;
+}
+.no-margin {
+  margin: 0px;
+}
+.no-padding {
+  padding: 0px;
+}
+.bg-color-left {
+  background: #f7f7f7;
+}
+.bg-color-right {
+  background: #1c1b1f;
+}
+.bg-color-1 {
+  background: #e4e4e4;
+}
+
+#content {
+  background-color: white;
+}
+.nombre h1 {
+  text-transform: uppercase;
+  font-size: 54px;
+  font-weight: 700;
+  color: #383838;
+  font-weight: 800;
+  font-family: "Oswald", sans-serif !important;
+}
+.nombre h1 span {
+  color: #3089db;
+  float: left;
+  width: 100%;
+  margin-top: -11px;
+}
+.nombre,
+.direccion {
+  padding: 27px;
+}
+
+/* .direccion {
+    background-color: white;
+} */
+.nombre h3 {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 7px 16px;
+  margin: 10px 0px 20px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #3089db;
+}
+.nombre p {
+  color: #383838;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.direccion .li {
+  font-weight: 600;
+  color: #383838;
+  font-size: 14px;
+}
+
+.direccion .li span {
+  text-transform: uppercase;
+}
+
+.text-color {
+  color: #3089db;
+}
+
+/* .experiencia {
+  background-color: white;
+} */
+.experiencia h2 {
+  background: #3089db;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 5px;
+  padding: 6px 27px;
+  font-size: 25px;
+}
+.ex-box h2 {
+  background: #3089db;
+  color: #fff;
+  font-size: 17px;
+  line-height: 17px;
+  display: inline-block;
+  padding: 5px 21px;
+  font-weight: 600 !important;
+  border-radius: 50px;
+  letter-spacing: 1px;
+}
+.ex-box {
+  padding: 27px 27px 0px 27px;
+}
+.ex-box h4 {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px 0px 5px;
+}
+.ex-box p {
+  font-size: 13px;
+  font-weight: 600;
+  color: #545454;
+}
+
+/*-------------------------*/
+.top-skills {
+  text-align: center;
+  padding: 40px;
+}
+.skill-name ul li {
+  list-style: none;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: #fff;
+  border-radius: 50%;
+}
+.sn {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  width: 68px;
+  height: 68px;
+  border: 5px solid #3089db;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 8px;
+}
+
+
+.top-skills {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  width: 451px;
+}
+.skill-name {
+  margin-right: 22px;
+}
+.color-box {
+  position: absolute;
+  top: 68px;
+}
+.bg-warning {
+  background-color: #3089db !important;
+}
+
+
+/*------------------*/
+.progress {
+  height: 8px;
+  margin-top: 10px;
+}
+.right-skills {
+  width: 430px;
+  float: right;
+  padding: 0px 36px;
+  position: relative;
+  border-left: 0px solid #cf455c;
+}
+.heading-skills h3 {
+  color: #fff;
+  font-size: 21px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding-bottom: 14px;
+}
+.right-skills h4 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+.mt-25{margin-top:25px;}
+.intetst-box i.fa,  .intetst-box i.fab{
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+}
+.intetst-icons {
+  color: #fff;
+  text-align: center;    
+  margin-bottom: 19px;
+}
+.intetst-icons h5 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: white;
+}
+
+/*-------------------------------*/
+.eduction-right {
+  display: inline-block;
+
+  padding: 0px 35px 35px 35px;
+}
+.eduction-right .ex-box {
+  padding: 27px 27px 0px 0px;
+}
+.eduction-right h3 {
+  padding-bottom: 0px;
+}
+.eduction-right .ex-box h4 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.eduction-right .ex-box p {
+  color: #fff;
+   font-weight: 400;
+}
+
+
+.ul-skills {
+  color: white;
+  font-size: 14px;
+  font-family: 'Oswald', sans-serif;
+  padding: 0px 35px 35px 5px;
+}
+
+.ul-skills  li {
+  margin: 5px;
+  background: #3089db;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  display: inline-block;
+  padding: 5px 21px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+
+}
